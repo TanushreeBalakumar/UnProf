@@ -3,39 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UnProf Intern Profile Card</title>
+    <title>UnProf Worker Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="profile-card">
+    <nav class="navbar">
+        <h2 class="logo">UnProf</h2>
 
-        <div class="profile-image">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+
+        <div class="profile-card">
+
             <img src="profile.jpg" alt="Profile Photo">
+
+            <h1>Tanushree</h1>
+
+            <h3>Web Development Intern</h3>
+
+            <p>📍 Chennai, Tamil Nadu</p>
+
+            <button>Contact Me</button>
+
         </div>
 
-        <h2>Tanushree</h2>
-        <h4>Web development Intern</h4>
+    </section>
 
-        <p class="location">📍 Chennai, Tamil Nadu</p>
+    <section class="skills-section" id="skills">
 
-        <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">UI/UX</div>
+
         </div>
 
-        <div class="about">
-            <h3>About</h3>
-            <p>
-                Passionate Web Development Intern with a strong interest in building responsive and user-friendly websites. Eager to learn modern web technologies and contribute to impactful projects.
-            </p>
-        </div>
+    </section>
 
-        <button>Contact Intern</button>
+    <section class="about-section" id="about">
 
-    </div>
+        <h2>About Me</h2>
+
+        <p>
+            Passionate Web Development Intern with a strong interest
+            in building responsive, user-friendly websites.
+            I enjoy learning new technologies and creating
+            impactful digital experiences.
+        </p>
+
+    </section>
+
+    <section class="contact-section" id="contact">
+
+        <h2>Get In Touch</h2>
+
+        <p>Let's connect and build something amazing together.</p>
+
+        <button>Email Me</button>
+
+    </section>
+
+    <footer>
+        <p>© 2026 UnProf Worker Profile</p>
+    </footer>
 
 </body>
 </html>
